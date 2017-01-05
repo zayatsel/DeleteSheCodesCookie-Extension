@@ -15,6 +15,8 @@ function done(details){
 		renderStatus(err.message);
 	} else {
 		renderStatus("Done!");
+		var checkPageButton = document.getElementById('checkPage');
+		checkPageButton.hidden = true;
 	}
 }
 
